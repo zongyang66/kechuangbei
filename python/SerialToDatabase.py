@@ -76,8 +76,6 @@ def serial_receice_data():
                 sendtodb(datapack_1[0],datapack_1[1],temp,datapack_2[0])
 
 
-
-
 #主函数
 if __name__ == '__main__':
     port_open_recv()#打开串口
